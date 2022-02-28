@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/logs/logs",
+    "pages/me/me",
+    "pages/binding/binding",
+    "pages/form_1/form_1",
+    "pages/follow_advice/follow_advice",
+    "pages/breathing/breathing",
+    "pages/medicine/medicine",
+    "pages/medical/medical",
+    "pages/medical_1/medical_1",
+    "pages/medical_2/medical_2",
+    "pages/medical_3/medical_3",
+    "pages/medical_4/medical_4",
+    "pages/medical_5/medical_5",
+    "pages/sport/sport",
+    "pages/sport_1/sport_1",
+    "pages/sport_2/sport_2",
+    "pages/sport_3/sport_3",
+    "pages/life/life",
+    "pages/emotion/emotion",
+    "pages/life_1/life_1",
+    "pages/life_2/life_2",
+    "pages/life_3/life_3",
+    "pages/life_4/life_4"
+
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#f8f8f8",
+    "navigationBarTitleText": "中医慢性肺病管理平台",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#ffffff"
+  },
+  "tabBar": {
+    "color": "#999BB2",
+    "selectedColor": "#90A47F",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+     
+        "iconPath": "images/home_1.png",
+        "selectedIconPath": "images/home_2.png"
+      },
+      {
+        "pagePath": "pages/follow_advice/follow_advice",
+       
+        "iconPath": "images/news_1.png",
+        "selectedIconPath": "images/news_2.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "iconPath": "images/me_1.png",
+        "selectedIconPath": "images/me_2.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,91 @@
+<!--pages/emotion/emotion.wxml-->
+<view class="back">
+  <view class="back_view">
+    <view class="title">情志调节：</view>
+    <view class="textstyle">
+      <view>中医情志学说在慢病管理中的三道防线即慢性疾病的预防、发生发展及预后的三个阶段有重要意义。即未病先防，既病防变、预后防复。陈代珍等研究发现对慢性病患者实施中医情志护理有助于改善其不良情志，从而促进生活质量的提高。</view>
+      <view>久病伤肝，则疏泄失常，患者因疾病等因素易产生焦虑、烦躁、忧郁等情绪，需与患者进行有效的沟通，让患者了解到“怒伤肝、忧伤肺、思伤脾、恐伤肾”的致病特点，认识到情志对疾病的影响，采取关心、安慰、暗示、鼓励等方法对患者进行情绪上的疏导，也可通过移情易性的方法，将患者感兴趣的事情或话题，或听舒缓的音乐等，缓解或消除患者的不良情绪。</view>
+      <view>患者应时刻保持精神愉快，学会控制情绪，不宜动怒。家属或护理人员应适时引导患者进行情绪宣泄,确保患者拥有一个良好的心理状态。同时护理人员对患者进行护理的过程中,要耐心、负责、认真,帮助患者建立战胜病魔的信心.</view>
+      <view>医护人员或者家属应使用健康手册向患者讲解有关疾病的知识，介绍未来打算使用的治疗方案和治疗原理，向患者告知肺纤维化的治疗进度，让患者对医护人员多一些信任，更加配合工作，鼓励患者以积极的态度面对治疗。</view>
+      <view>安排一些趣味活动给比较恐惧和紧张的患者，例如观看小品等转移患者的注意力，让患者减少对疾病的关注。同时，经常为患者播放舒缓类的音乐，指导患者闭目养神，慢慢放松自己，减少紧张和恐惧感。</view>
+      <view >对于焦虑感和烦躁感比较强烈的患者，患者家属和医护人员要加强和患者沟通，了解患者的想法，安排好相关事宜，避免产生让患者烦躁的事情，患者的需求也要尽可能满足，慢慢舒缓患者情绪。</view>
+      <view>以下为几种中医情志调节和缓解压力的方法(视频链接点击复制到浏览器播放）：</view>
+    </view>
+    <view class="title">情志相胜法：</view>
+    <view class="textstyle">
+      在中医学众多的心理疗法中，最具有中医特色的应该是情志相胜法。人的情志活动也有五行的相生相克，相互抑制的作用。临床上运用不同情志变化的相互抑制关系来达到治疗目的。如“怒伤肝，悲胜怒，喜伤心，恐胜喜，思伤脾，怒胜思，忧伤肺，喜胜忧，恐伤肾，思胜恐”。
+    </view>
+    
+    <view class="title">五音疗法：</view>
+    <view class="textstyle">
+      五音是通过五情相应调节五脏，正声雅乐使喜怒忧思恐归于和平，调和身心，又可以达到治病保健的作用。不仅如此，五音与八卦五行、五方、五色、五味都有相应，其正调雅乐，调度五情，如能全身放松，聆听音乐，观想气行至所属脏器(如演奏宫乐时，则观想着气行至脾脏)，如此气随意走，从而调理全身气血和脏腑。
+    </view>
+    
+    <view class="title">吐纳导引术：</view>
+    <view class="textstyle">
+      吐纳导引术我国古代已广为流传,经过实践证明，本法适肺气肿、支气管炎、哮喘、慢性气管炎等疾病,本法是“动的静坐功”，不仅在吐纳中强调鼻腔喷气、山根纳气的呼吸运动，在导引与按摩中，也强调肢体运动和呼吸运动相结合，注意以动为主、动静结合、动柔相适。全身放松，排除杂念，做到松中有紧，柔中有刚，刚柔相济。
+    </view>
+    
+    <view class="title">移情易性法：</view>
+    <view class="textstyle">亦称“移精变气疗法”，排遗情思，改易心志，分散病人对疾病的注意力，使思想焦点从病处转移至他处，或改变周围环境，使患者不与不良刺激因素接触；或改变病人内心虑恋时指向性，使其从某种情感纠葛中解放出来，转移于另外的人或物上等等，可称之为“移情”。通过学习、交谈等活动，排除病人内心的杂念，或改变其错误的认识与不良情绪，或改变其不健康的生活习惯于思想情操等。</view>
+   
+    <view class="title">释放压力：</view>
+    <view class="textstyle">在面对压力无法排解时，不妨将心中的压力和不快说出来，或者通过运动、唱歌、大喊、哭泣等方式宣泄出来，不良情绪一扫而空，压力自然得到了缓解。又或者通过深呼吸，想想到底是什么让你感觉焦虑。深呼吸也能在你体内注入更多的氧气，从而让你的精力更加旺盛。建议每天冥想10分钟。冥想是解除任何形式和程度压力的最好方法。它能降低心跳频率和血压，减缓呼吸，平复脑电波，更快恢复身心平稳，防止在压力下身体的免疫能力下降。简单的自我按摩。如用拇指压按太阳穴，做眼睛保健操，有拇指和食指提捏后颈部等，也可以释放压力。
+    </view>
+   
+    <view class="title">缓解焦虑：</view>
+    <view class="textstyle">当感觉到紧张，焦虑，恐惧的时候，可以听自己喜欢的音乐，不管是什么音乐，只要让自己听了之后感觉轻松愉快就可以了，自己可以安静下来，躺在床上，把音响音量调节好，闭上眼睛，心里不要再去想烦心的事情，集中精力。缓解焦虑的情绪时应该保持心理的稳定，不能大喜大悲，一定要凡事都想得开，使自己的主观思想不断适应客观发展的事实。
+    </view>
+
+
+    <view class="title">视频教程地址：</view>
+    <view class="textstyle2">情志相胜法:</view>
+    <view class="textstyle3">
+      <text selectable='true'> https://www.ixigua.com/6826194586
+        138837516?wid_try=1 </text>
+    </view>
+    <view class="textstyle2">五音疗法:</view>
+    <view class="textstyle3">
+      <text selectable='true'>  https://www.ixigua.com/6447261122
+        692121101 </text>
+    </view>
+    <view class="textstyle2">吐纳导引术:</view>
+    <view class="textstyle3">
+      <text selectable='true'> https://www.ixigua.com/6826194586
+        138837516?wid_try=1 </text>
+    </view>
+    <view class="textstyle2">移情易性法:</view>
+    <view class="textstyle3">
+      <text selectable='true'>  https://haokan.baidu.com/v?pd=wise
+        natural&vid=9514129955751240491 </text>
+    </view>
+    <view class="textstyle2">释放压力:</view>
+    <view class="textstyle3">
+      <text selectable='true'>  https://m.baidu.com/bh/m/detail
+        /sv_12350959679812508217 </text>
+    </view>
+    <view class="textstyle2">缓解焦虑:</view>
+    <view class="textstyle3">
+      <text selectable='true'>https://m.baidu.com/bh/m/detail
+        /sv_11522434954202364926</text>
+    </view>
+    <view class="textstyle2">（上方视频链接复制到浏览器打开观看）</view>
+  </view>
+
+  <view class="back_view">
+    <view class="title">参考文献：</view>
+    <view class="textstyle2">
+      [1].曾孝琼,肺纤维化患者如何护理,大众健康报/2020年/6月/24日/第014版健康科普
+    </view>
+    <view class="textstyle2">
+      [2].刘阳,钟志兵,浅析中医情志学说在慢病管理中的作用与意义[J].江西中医药大学
+    </view>
+    <view class="textstyle2">
+      [3].陈敏,阴智敏.中医护理干预在水蛭宣痹化纤汤治疗肺间质纤维化中的效果[J].临床医学研究与实践,2020,5(22):148-150.
+    </view>
+    <view class="textstyle2">
+      [4].RAGHUG, COLLARDHR, eta I.  A official ATS statement: idiothicpul monarfibro-sis:evidence-based guiderdiagnos is andmana gement [Jl. American Journal of Respiratory & Critica1 CareMedicine,2011.
+    </view>
+    
+  </view>
+</view>

@@ -1,0 +1,27 @@
+/* pages/sport/sport.wxss */
+page{
+  background-color: #ffffff;
+}
+.first_view{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute; 
+  align-items:center;/*水平居中*/
+  bottom: 50rpx;
+}
+
+.second_view{
+  width: 60%;
+  height: 10vh;
+  border-radius: 30rpx;
+  margin: 20rpx;
+  font-size: 15pt;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;/*水平居中*/
+  background-color: #cbdec2;
+}

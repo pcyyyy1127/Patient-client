@@ -1,0 +1,65 @@
+<!--pages/breathing/breathing.wxml-->
+<view class="back">
+  <view class="back_view">
+    <view class="title">呼吸困难评级：</view>
+    <view class="textstyle">
+      采用改良英国医学研究会呼吸困难指数（mMRC）评估。评估方法：仅在费力运动时感觉呼吸困难为0级；平地快走或上坡感觉气短为1级；平地慢走或自觉气短为2级，平地行走10m或数分钟就需休息为3级，穿衣等轻微活动就呼吸困难为4级。
+    </view>
+    <view class="title">呼吸训练建议：</view>
+    <view class="textstyle">
+      肺功能锻炼肺纤维化患者大多出现进行性呼吸困难，表现为呼吸浅快、费力。根据患者基础状况，指导患者进行缩唇呼吸、腹式呼吸等训练以锻炼呼吸肌及增强膈肌运动，缓解呼吸困难症状。呼吸训练能有效扩张及提升肺部有效容积，维持肺组织弹性。在常规对症治疗基础上加用呼吸锻炼等非药物疗法有助于提高护理质量，并且于锻炼前和锻炼2个月后对患者的临床症状表现、一般生活质量和血气分析等指标进行统计评估。
+    </view>
+    <view class="textstyle">以下训练请在专业人员指导下进行，具体次数随医嘱变化。</view>
+    <view class="title">深呼吸训练</view>
+    <view class="textstyle">患者通过鼻深吸气－屏气－慢呼气法，每次锻炼5～10min，每天于早晚各1次。
+    </view>
+    <view class="title">腹式呼吸训练</view>
+    <view class="textstyle">康复治疗师指导患者取坐位、平卧位、站位，一手置于腹部，一手置于胸部行缓慢呼吸锻炼，用鼻呼吸，频率为4～6s。</view>
+
+    <view class="title">缩唇呼吸训练</view>
+    <view class="textstyle">由康复治疗师指导患者通过半闭口唇缓慢呼吸，缓慢吸气后尽量呼出气体，以改善通气功能，每日2次，每次30min。</view>
+
+    <view class="title">胸廓放松训练</view>
+    <view class="textstyle">
+      通过对胸廓肌肉不同肌群方向的放松，从而达到胸廓肌肉放松的目的。通常采用的方式有胸式呼吸、后背式呼吸，以及单侧和双侧肋间呼吸。胸式呼吸通过上、下肌肉的呼吸运动减少胸廓肌肉的运动度。后背式呼吸和单、双侧肋间呼吸，需由医疗人员或专业呼吸训练师辅助完成。
+    </view>
+
+    <view class="title">吹蜡烛训练</view>
+    <view class="textstyle">患者取坐位，嘴与桌上蜡火高度持平，距离20cm，用力吸气后用力呼气，直至蜡烛熄灭，每次完成一次练习后增加10cm距离，直至相距80cm为止。</view>
+    <view class="title">吹气球训练</view>
+    <view class="textstyle">
+      鼻子吸气，嘴巴吐气。吸气时胸廓360度扩张，吸气和呼气的比例是1:2，如吸气3s呼气6s,所有的气都需要呼完，吐气完毕后憋气五秒钟，使血液中二氧化碳含量增多,舌头顶上颚，整个舌头顶上颚，然后在这个姿势下再吸气，吸气时不能让嘴里的气球泄气。控制住气压，而不能用手去辅助，压住气球嘴。呼气的时候不应该鼓气，需要用整个口腔和胸腔的力去进行呼气。
+    </view>
+
+    <view class="title">视频教程链接：</view>
+    <view class="textstyle2">腹式呼吸训练:</view>
+    <view class="textstyle3">
+      <text selectable='true'> https://www.youlai.cn/video/article/
+        384778.html </text>
+    </view>
+
+    <view class="textstyle2">胸廓放松训练:</view>
+    <view class="textstyle3">
+      <text selectable='true'> https://www.youlai.cn/video/article/
+        336535.html</text>
+    </view>
+
+    <view class="textstyle2">吹气球训练:</view>
+    <view class="textstyle3">
+      <text selectable='true'> https://haokan.baidu.com/v?pd=wise
+        natural&vid=3715205716431858596</text>
+    </view>
+
+    <view class="textstyle2">（上方视频链接复制到浏览器打开观看）</view>
+  </view>
+
+  <view class="back_view">
+    <view class="title">参考文献：</view>
+    <view class="textstyle2">
+      [1].曾孝琼,肺纤维化患者如何护理,大众健康报/2020年/6月/24日/第014版健康科普</view>
+      <view class="textstyle2">[2].刘莉,史婵婵,等.呼吸管理团队对慢性阻塞性肺病患者呼吸功能恢复及生活质量的影响[J].护理实践与研究,2020,(16):70-72.</view>
+      <view class="textstyle2">[3].张月红.中西医结合治疗肺纤维化的护理[J].家庭医药.就医选药,2018,(01):247-248.</view>
+      <view class="textstyle2">[4].叶小丹,余宁琴,等.中医护理技术对肺纤维化患者的应用研究进展[J].深圳中西医结合杂志,2021,(05).</view>
+    
+  </view>
+</view>

@@ -1,0 +1,192 @@
+/* pages/follow_advice/follow_advice.wxss */
+/***背景样式****/
+page{
+  background-color: #ffffff;
+}
+
+.home_back{
+  width: 750rpx;
+  height:280rpx;
+  position: absolute;
+  z-index: -1;
+}
+/***1.首部样式****/
+.first_font{
+  width: 80%;
+  height: 20%;
+  position: absolute;
+  margin: 20rpx;
+}
+/*标题字体样式*/
+.class_text1{
+  font-family: Microsoft YaHei;
+  font-weight: bolder;
+  font-size: 20pt;
+  text-shadow: 15rpx 15rpx 15rpx #999999;
+}
+.class_text2{
+  font-family: Microsoft YaHei;
+  font-size: 14pt;
+  font-size-adjust: none;
+  color: #ababab;
+  
+}
+
+/*随访和医嘱卡区域样式*/
+.column_view{
+  display: flex;
+  flex-direction: column;
+  align-items: center;/*水平居中*/
+  font-size: 16pt;
+  width: 100%;
+}
+
+/*随访和长期医嘱区域样式*/
+.big_view1{
+  width: 90%;
+  margin: 25rpx 20rpx 10rpx 15rpx;
+  border-radius: 30rpx;
+  background-color: #fbc984;
+  display: flex;
+  flex-direction: row;
+ 
+}
+/*随访*/
+.suifang{
+  width: 55%;
+  margin: 10rpx 0rpx 10rpx 20rpx;
+  border-radius: 50rpx;
+  /*background-color: #9c9892;*/
+  display: flex;
+  flex-direction: column;
+  
+}
+.suifang2{
+  width: 45%;
+  margin: 10rpx 0rpx 10rpx 20rpx;
+  border-radius: 50rpx;
+  /*background-color: #9c9892;*/
+  display: flex;
+  flex-direction: column;
+  
+}
+.third_view{
+  width: 100%;
+  margin: 10rpx;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+/*随附信息样式*/
+.text_view{
+  margin: 20rpx 0 10rpx 20rpx;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ 
+}
+.title1{
+  font-family: Microsoft YaHei;
+  font-size: 14pt;
+  font-weight: 600;
+  margin: 20rpx 0 0rpx 10rpx;
+}
+.title2{
+  font-family: Microsoft YaHei;
+  font-size: 12pt;
+}
+.title3{
+  font-family: Microsoft YaHei;
+  font-size: 12pt;
+  color: #555555;
+  margin: 0rpx 0 0rpx 0rpx;
+}
+/*刷新按钮*/
+.search_button{
+  background-color:#ffffff;
+  width: 100rpx;
+  margin: 0rpx 0 0rpx 0;
+  height: 60rpx;
+  color: #000000;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+/*舌相文字*/
+.title4{
+  font-family: Microsoft YaHei;
+  font-size: 14pt;
+  position: absolute;
+  right: 80rpx;
+  font-weight: 600;
+  margin: 20rpx 5rpx 10rpx 0rpx;
+}
+/*图片上传*/
+.image_view{
+  width: 150rpx;
+  height: 150rpx;
+  margin: 70rpx 0rpx 10rpx 10rpx;
+}
+
+.big_view{
+  width: 90%;
+  margin: 10rpx 20rpx 10rpx 15rpx;
+  border-radius: 50rpx;
+  background-color: #fbc984;
+  display: flex;
+  flex-direction: column;
+  align-items: center;/*水平居中*/
+  justify-content: center;
+}
+/*临时医嘱区域样式*/
+.small_view{
+  width: 90%;
+  margin: 10rpx 20rpx 10rpx 15rpx;
+  border-radius: 40rpx;
+  background-color: #cbdec2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;/*水平居中*/
+  justify-content: center;
+  
+}
+
+.row_view{
+  display: flex;
+  flex-direction: row;
+  /*侧轴居中justify-content: center;*/
+  align-items: center;/*水平居中*/
+  font-size: 16pt;
+  width: 100%;
+}
+
+/*长期医嘱区域样式*/
+/*查看按钮样式*/
+.see_button{
+  background-color:#e6c5b5;
+  width: 100rpx;
+  margin: 30rpx 50rpx 0rpx 0;
+  height: 60rpx;
+  color: #ffffff;
+  font-weight: 400;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+/*医生头像图片*/
+.doctor_img{
+  width: 180rpx;
+  height: 180rpx;
+  border-radius: 50%;
+  margin: 10rpx 0rpx 10rpx 20rpx;
+}
+/*医生和时间*/
+.title5{
+  font-family: Microsoft YaHei;
+  font-size: 12pt;
+  margin: 10rpx 30rpx 10rpx 20rpx;
+}

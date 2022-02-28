@@ -1,0 +1,96 @@
+<!--pages/follow_advice/follow_advice.wxml-->
+<!--一、首部说明区域-->
+<view class="first_view">
+  <image class="home_back" src="/images/homepage.png" mode="bottom">
+  </image>
+  <view class="first_font">
+    <view class="class_text1">随访医嘱</view>
+    <view class="class_text2">visit & Medical advice</view>
+  </view>
+</view>
+<!--二、随访医嘱-->
+<view class="second_title">随访安排</view>
+<view class="column_view">
+  <!--二、随访区域-->
+  <view class="big_view1">
+    <view class="suifang">
+      <view class="title1">随访计划</view>
+      <view class="text_view">
+        <view class="title2">随访日期:</view>
+        <view class="title3">{{followTime}}</view>
+      </view>
+      <view class="text_view">
+        <view class="title2">随访状态:</view>
+        <view class="title3">{{type}}</view>
+      </view>
+      <view class="text_view">
+        <view class="title2">随访次数:</view>
+        <view class="title3">{{sequence}}</view>
+      </view>
+      <!-- 刷新按钮 -->
+      
+      <view class="third_view">
+        <button class="search_button" size="mini" bindtap="search">刷新</button>
+      </view>
+    </view>
+    <view class="suifang2">
+      <view class="title4">舌相上传</view>
+      <view class="third_view">
+        <view>
+          <image class="image_view" src="{{sourcess}}" bindtap="ifUponload"></image>
+        </view>
+        <view class="title3">点击图片添加</view>
+      </view>
+    </view>
+
+  </view>
+  <!-- 临时医嘱区域 -->
+  <view class="text_view">
+    <view class="second_title">临时医嘱</view>
+    <button class="see_button" size="mini" bindtap="seeTemp" style="background-color:#90ad81;">查看</button>
+  </view>
+  <!-- 临时医嘱内容 -->
+  <!-- 此部分根据临时医嘱条数渲染 -->
+  <view class="small_view" wx:for="{{temp}}" wx:key="index">
+    <!-- 医嘱图标和医生姓名、时间 -->
+    <view class="text_view" style=" justify-content: left;">
+      <image class="doctor_img" src="/images/5.jpg"></image>
+      <view class="suifang">
+        <view class="title5">长期医嘱</view>
+        <view class="title5">医生: {{item.doctorName}}</view>
+        <view class="title5">时间: {{item.createTime}}</view>
+      </view>
+    </view>
+    <!-- 医嘱详细内容 -->
+    <view class="textstyle" style="text-indent: 0rpx;">{{item.detail}}</view>
+    
+  </view>
+
+
+  <!-- 长期医嘱区域 -->
+  <view class="text_view">
+    <view class="second_title">长期医嘱</view>
+    <button class="see_button" size="mini" bindtap="seeLongTerm">查看</button>
+  </view>
+  <!-- 长期医嘱内容 -->
+  <!-- 此部分根据医嘱条数渲染 -->
+  <view class="big_view" style=" background-color: #d3ccc6;" wx:for="{{longTerm}}" wx:key="index">
+    <!-- 医嘱图标和医生姓名、时间 -->
+    <view class="text_view" style="  justify-content: left;">
+      <image class="doctor_img" src="/images/2.jpg"></image>
+      <view class="suifang">
+        <view class="title5">长期医嘱</view>
+        <view class="title5">医生: {{item.doctorName}}</view>
+        <view class="title5">时间: {{item.createTime}}</view>
+      </view>
+    </view>
+    <!-- 医嘱详细内容 -->
+    <view class="textstyle" style="text-indent: 0rpx;">{{item.lifeEnvironment}}</view>
+    <view class="textstyle" style="text-indent: 0rpx;">{{item.breathTrain}}</view>
+    <view class="textstyle" style="text-indent: 0rpx;">{{item.sportsAdvice}}</view>
+    <view class="textstyle" style="text-indent: 0rpx;">{{item.emotionManagement}}</view>
+    <view class="textstyle" style="text-indent: 0rpx;">{{item.medicalCare}}</view>
+  </view>
+
+
+</view>

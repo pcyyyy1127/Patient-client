@@ -1,0 +1,44 @@
+<!--pages/sport_3/sport_3.wxml-->
+<view class="back">
+  <view class="back_view">
+    <view class="title">有氧运动：</view>
+    <view class="textstyle">
+      <view>
+        适当的体育锻炼对增强心肺功能有良好影响，可以促进患者对外界环境的适应能力。患此病的老人常常和骨质疏松症合并存在，这一类老年人在运动时需进行适度的力量性训练及负重有氧训练、柔韧性训练，如散步、爬楼梯，少做大幅度运动。确保血压控制好后进行运动，尽量控制在130/80mmHg左右，避免可能诱发血压升高的运动方式，如举重、屏气等。应避免过度伸展。一般情况下，建议一次有氧运动的时间最好是30分钟。日常生活活动及运动过程中应注意动作轻柔，避免颈部、腰部的负重，当出现颈腰劳累，手腿发麻、疼痛，以及头晕、行走不稳等情况应立即休息，若休息之后仍无法缓解，当及时就医。
+      </view>
+    </view>
+    <view class="title">运动教程链接：</view>
+    <view class="textstyle2">慢性呼吸病病人运动须知:</view>
+    <view class="textstyle3">
+      <text selectable='true'>https://www.youlai.cn/video/article/
+        384778.html</text>
+    </view>
+    <view class="textstyle2">肺康复训练介绍:</view>
+    <view class="textstyle3">
+      <text selectable='true'>https://www.youlai.cn/video/article/
+        384778.html</text>
+    </view>
+    <view class="textstyle2">慢性呼吸病病人有氧运动推荐:</view>
+    <view class="textstyle3">
+      <text selectable='true'>https://www.bilibili.com/video/BV1Vw
+        411Z7Tg?p=61</text>
+    </view>
+    <view class="textstyle2">有氧后放松运动:</view>
+    <view class="textstyle3">
+      <text selectable='true'>https://www.bilibili.com/video/BV1Vw
+        411Z7Tg?p=63</text>
+    </view>
+    <view class="textstyle2">（上方视频链接复制到浏览器打开观看）</view>
+  </view>
+  <view class="back_view">
+    <view class="title">参考文献：</view>
+   
+      <view class="textstyle2">[1].刘莉,史婵婵,等.呼吸管理团队对慢性阻塞性肺病患者呼吸功能恢复及生活质量的影响[J].护理实践与研究,2020,(16):70-72.</view>
+      <view class="textstyle2">[2].张月红.中西医结合治疗肺纤维化的护理[J].家庭医药.就医选药,2018,(01):247-248.</view>
+      <view class="textstyle2">[3].叶小丹,余宁琴,等.中医护理技术对肺纤维化患者的应用研究进展[J].深圳中西医结合杂志,2021,(05).</view>
+      <view class="textstyle2">[4].康萍.特发性肺纤维化肺康复的研究进展[J].湖南中医杂志,2020,(10):188-190.</view>
+      <view class="textstyle2">[5].陈敏,阴智敏.中医护理干预在水蛭宣痹化纤汤治疗肺间质纤维化中的效果[J].临床医学研究与实践,2020.</view>
+      <view class="textstyle2">[6].杨燕.慢病管理对稳定期COPD价值及急性加重风险的临床研究[J].西南医科大学学报,2021,(02).</view>
+    
+  </view>
+</view>

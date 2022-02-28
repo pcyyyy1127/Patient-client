@@ -1,0 +1,25 @@
+<!--pages/binding/binding.wxml-->
+<view class="first_view">
+  <view class="class_text1">档案绑定</view>
+  <view class="class_text2">Binding file</view>
+
+  <view class="row_view">
+    <view class="second_view">姓名</view>
+    <input class="third_view"  bindinput="nameInput" placeholder="张三" />
+  </view>
+  <view class="row_view">
+    <view class="second_view" style="background-color: #e6c5b5;">档案号</view>
+    <input class="third_view" bindinput="idInput"  placeholder="0000000021" />
+  </view>
+
+  <!--提交问卷区域-->
+<view class="last_view"> 
+  <view class="submit" bindtap="formSubmit">绑定档案</view>
+
+  <view class=" button " >
+    <button open-type="contact">联系客服</button>
+  </view>
+ 
+</view>
+  <view class="fouth_view" style="color: #999999;">—— 填写信息提交绑定档案号 ——</view>
+</view>

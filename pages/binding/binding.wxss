@@ -1,0 +1,99 @@
+/* pages/binding/binding.wxss */
+page{
+  background-color: #ffffff;
+}
+/*首部文字内容*/
+.first_view{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute; 
+  align-items:center;/*水平居中*/
+  bottom: 50rpx;
+}
+/*字体样式*/
+.class_text1{
+  font-family: Microsoft YaHei;
+  font-weight: bolder;
+  font-size: 20pt;
+  top: 40rpx;
+  position:fixed;
+  display:flex;
+  justify-content:center;
+}
+.class_text2{
+  font-family: Microsoft YaHei;
+  font-size: 14pt;
+  font-size-adjust: none;
+  color: #ababab;
+  top: 120rpx;
+  position:fixed;
+  display:flex;
+  justify-content:center;
+}
+
+/*横向居中排列*/
+.row_view{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+/*姓名、档案号*/
+.second_view{
+  width: 20%;
+  height: 6vh;
+  border-radius: 10rpx;
+  margin: 20rpx;
+  font-size: 12pt;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;/*水平居中*/
+  background-color: #c9dbb1;
+}
+/*输入框样式*/
+.third_view{
+  height: 5vh;
+  border: 5rpx solid #aac4b7;
+  border-radius: 10rpx;
+  margin: 10rpx;
+}
+/**提交按钮*/
+.last_view{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items:center;/*水平居中*/
+}
+.submit{
+  width: 50%;
+  height:80rpx;
+  border-radius: 20rpx;
+  font-size: 12pt;
+  font-weight: 600;
+  margin: 120rpx 0 30rpx 0;
+  background-color: #bdd7b2;
+  display: flex;
+  border-radius: 15rpx;
+  border: 5rpx solid #aac4b7;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;/*水平居中*/
+}
+
+
+.button{
+  border-radius: 15rpx;
+  border: 5rpx solid #aac4b7;
+}
+/*提示栏样式*/
+.fouth_view{
+  position:fixed;
+  bottom:20rpx;
+  display:flex;
+  font-size: 10pt;
+}

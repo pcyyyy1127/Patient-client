@@ -1,0 +1,89 @@
+<!--pages/me/me.wxml-->
+<!--首部字体区域-->
+<view class="first_font">
+  <view class="class_text1">自我管理</view>
+  <view class="class_text2">Medical record</view>
+</view>
+<!--图片和个人信息区域-->
+<view class="second">
+  <view class="second_view">
+    <image class="sex_image" src="{{sexIamge}}"></image>
+    <!--个人信息5项-->
+    <view class="personal_information">
+      <!--第1项——姓名-->
+      <view class="attibute_view">
+        <view class="image_center">
+          <image class="attribute_image" src="/images/name.png"></image>
+        </view>
+        <view class="font_view">
+          <text class="attribute" style="color: #00884F;">Name</text>
+          <text class="details">{{name}}</text>
+        </view>
+      </view>
+      <!--第2项——性别-->
+      <view class="attibute_view">
+        <view class="image_center">
+          <image class="attribute_image" src="/images/sex.png"></image>
+        </view>
+        <view class="font_view">
+          <text class="attribute" style="color: #4c88cd;">Sex</text>
+          <text class="details">{{sex}}</text>
+        </view>
+      </view>
+      <!--第3项——出生日期-->
+      <view class="attibute_view">
+        <view class="image_center">
+          <image class="attribute_image" src="/images/age.png"></image>
+        </view>
+        <view class="font_view">
+          <text class="attribute" style="color: #779649;">BirthDate</text>
+          <text class="details">{{birthDate}}</text>
+        </view>
+      </view>
+      <!--第4项——病种-->
+      <view class="attibute_view">
+        <view class="image_center">
+          <image class="attribute_image" src="/images/lung.png"></image>
+        </view>
+        <view class="font_view">
+          <text class="attribute" style="color: #95d6cf;">Disease</text>
+          <!-- 疾病种类选择器 -->
+          <Select class="details" prop-array='{{selectArray}}'></Select>
+
+        </view>
+      </view>
+      <!--第5项——档案号ee7575-->
+      <view class="attibute_view">
+        <view class="image_center">
+          <image class="attribute_image" src="/images/id.png"></image>
+        </view>
+        <view class="font_view">
+          <text class="attribute" style="color: #fbc984;">ID</text>
+          <text class="details">{{archivesId}}</text>
+        </view>
+      </view>
+      <!--点击绑定-->
+      <view class="attibute_view">
+        <view class="image_center">
+          <image class="attribute_image" src="/images/binding1.png"></image>
+        </view>
+        <view class="font_view">
+          <navigator class="binding" url="/pages/binding/binding">档案绑定</navigator>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+<!--自我管理目标区域-->
+<view class="third">
+  <view class="third_view">
+    <text class="class_text3">短期目标：{{shortTerm}}</text>
+    <button class="change_button" size="mini" bindtap="modalInput">点击修改</button>
+    <text class="class_text4">长期目标：每日训练，戒烟戒酒，保持心情愉悦</text>
+  </view>
+</view>
+<!--短期目标修改弹窗-->
+<modal hidden="{{hiddenmodalput}}" title="短期目标" confirm-text="提交" cancel-text="取消" bindcancel="cancelM"
+  bindconfirm="confirM">
+  <input type='text' bindinput="messageChange" placeholder="{{shortTerm}}" auto-focus />
+</modal>

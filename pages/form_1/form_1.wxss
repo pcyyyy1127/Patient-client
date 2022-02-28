@@ -1,0 +1,66 @@
+/* pages/form_1/form_1.wxss */
+/*标题字体样式*/
+.first_view{
+  width: 80%;
+  margin: 20rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.first_font{
+  font-family: Microsoft YaHei;
+  font-weight: 600;
+  font-size: 20pt;
+}
+.second_font{
+  font-family: Microsoft YaHei;
+  margin: 25rpx 25rpx 0rpx 25rpx;
+  color: #ababab;
+}
+/*自我管理问卷背景样式*/
+.background{
+  background: #ffffff;
+  width: 100%;
+  border-radius: 10rpx;
+  margin: 20rpx;
+}
+/*题目字体样式*/
+.third_font{
+  font-family: Microsoft YaHei;
+  margin: 25rpx;
+  font-weight: 500;
+  font-size: 16pt;
+  margin: 20rpx;
+}
+/*选框字体样式*/
+.radio-group{
+  width: 100%;
+  margin: 20rpx;
+}
+.radio{
+  margin: 20rpx;
+}
+/*文本框样式*/
+.textarea{
+  margin: 25rpx;
+  border: 3rpx solid #626e68
+}
+/**提交按钮*/
+.last_view{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items:center;/*水平居中*/
+}
+.submit{
+  width: 30%;
+  height:80rpx;
+  border-radius: 20rpx;
+  font-size: 16pt;
+  margin: 0rpx 0 20rpx 0;
+  background-color: #bdd7b2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;/*水平居中*/
+}

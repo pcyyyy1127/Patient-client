@@ -1,0 +1,9 @@
+<!--pages/life/life.wxml-->
+<view class="first_view">
+  <navigator class="second_view" url="/pages/life_1/life_1" style="background-color: #bdd7b2;">生活环境</navigator>
+  <navigator class="second_view" url="/pages/life_2/life_2" style="background-color: #f5cb8a;">口腔感染</navigator>
+  <navigator class="second_view" url="/pages/life_3/life_3" style="background-color: #d6cbc4;">饮食药膳</navigator>
+  <navigator class="second_view"  url="/pages/life_4/life_4" style="background-color: #e6c5b5;">戒烟戒酒</navigator>
+  
+  <view style="color: #999999; pages/life/life">—— 点击模块查看详细内容 ——</view>
+</view>

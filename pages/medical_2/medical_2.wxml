@@ -1,0 +1,62 @@
+<!--pages/medical_2/medical_2.wxml-->
+<view class="back">
+  <view class="back_view">
+    <view class="title">家庭氧疗指导：</view>
+    <view class="textstyle">
+      <view>1.肺纤维化患者常出现低氧血症，有效的吸氧能缓解患者呼吸困难的程度。氧疗前注意让患者及时排痰以保持呼吸通畅。呼吸困难严重者可采用端坐位或卧位等，氧疗过程中需密切观察患者病情变化，可根据患者神志、血压、脉搏、动脉血气分析等评估疗效和及时调节氧疗浓度。</view>
+      <view>2.吸氧时易导致鼻腔堵塞和干燥，应及时清理分泌物及充分湿化。对病情危重病人，必要时可予无创呼吸机辅助通气，甚或气管插管通气治疗，需更加精心细致护理。</view>
+      <view>3.家庭氧疗指导：吸氧管可选用耳挂式双鼻塞吸氧管，氧流量控制在2L/min，每日吸氧时间为12h以上</view>
+      <view>4.氧疗注意要点：应根据低氧血症的严重程度判定患者长期氧疗的指征，避免不必要的治疗。</view>
+    <view>5.对于有长期氧疗指征的稳定期慢性阻塞性肺疾病患者，可以尝试应用经鼻高流量氧。稳定期慢性阻塞性肺疾病患者进行长期氧疗，需要保证足够的氧疗时长。
+    </view>
+    <view>6.慢性阻塞性肺疾病患者运动时推荐使用动态氧疗，不建议使用短脉冲氧疗。</view>
+    <view>7.血氧饱和度正常的慢性阻塞性肺疾病患者合，并难治性呼吸困难时，不推荐姑息氧疗。</view>
+      
+
+    </view>
+    <view class="title">视频教程链接：</view>
+    <view class="textstyle2">家庭氧疗的用法:</view>
+    <view class="textstyle3">
+      <text selectable='true'> https://haokan.baidu.com/v?pd=wise
+        natural&vid=5326763257943271810</text>
+    </view>
+
+    <view class="textstyle2">家庭氧疗的吸氧时间:</view>
+    <view class="textstyle3">
+      <text selectable='true'>https://m.baidu.com/bh/m/detail
+        /sv_10941161076439439403</text>
+    </view>
+
+    <view class="textstyle2">家庭氧疗指导:</view>
+    <view class="textstyle3">
+      <text selectable='true'> https://www.ixigua.com/6801025
+        2286222668806</text>
+    </view>
+
+    <view class="textstyle2">（上方视频链接复制到浏览器打开观看）</view>
+  </view>
+
+  <view class="back_view">
+    <view class="title">参考文献：</view>
+    <view class="textstyle2">
+      [1].陶国芳,鲍杨娟,等.慢性阻塞性肺疾病患者家庭氧疗管理的最佳证据总结[J].中华护理杂志,2021,56(07):983-990.
+    </view>
+    <view class="textstyle2">
+      [2].Global Initiative for Chronic Obstructive Lung Disease. Global strategy for the diagnosis, management and prevention of chronic obstructive pulmonary disease 2020 report [EB/OL].2019. 
+    </view>
+    <view class="textstyle2">
+      [3].Sundh J，Ekstrm M. Risk factors for developing hypoxic respi ratory failure in COPD[J].Int J Chron Obstruct Pulmon Dis, 2017.12.
+    </view>
+    <view class="textstyle2">
+      [4].赵文清，郑敏宇．特发性肺纤维化的中西医治疗进展[J].中华中医药学刊, 2016.
+    </view>
+    <view class="textstyle2">
+      [54].Wells JM，Estepar RSJ，et al. Clinical，physio logic，and radiographic factors contributing to development of hypoxemia in moderate to severe COPD:a cohort study[J].BMC Pulm Med，2016. 
+    </view>
+    <view class="textstyle2">
+      [6].Stolz D，Boersma W，etal. Exertional hypoxemia in stable COPD is common and predicted by circulating proad renomedullin [J].Chest，2014.
+    </view>
+   
+    
+  </view>
+</view>

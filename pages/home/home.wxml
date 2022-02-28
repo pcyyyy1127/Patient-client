@@ -1,0 +1,98 @@
+<!--pages/home/home.wxml-->
+<!--一、欢迎和头像区域-->
+<view class="first_view">
+  <image class="home_back" src="/images/homepage.png" mode="bottom"></image>
+  <!--退出登录-->
+  <view class="exit">
+    <view wx:if="{{userInfo}}" class="exit_view" bindtap="loginOut">
+      <image class="first_image" src="/images/exit.png"></image>
+    </view>
+  </view>
+  <!--欢迎区域-->
+  <view class="welcome_head">
+    <view class="welcome">
+      <view>Hi! {{userInfo.nickName}}</view>
+      <text>今天也要开开心心！</text>
+    </view>
+    <!--头像区域--点击登录-->
+    <view class="head">
+      <view bindtap="doLogin">
+        <image class="head_image" src="{{userInfo.avatarUrl}}"></image>
+      </view>
+      <view wx:if="{{!userInfo}}">点击登录</view>
+      <view wx:else>{{userInfo.nickName}}</view>
+    </view>
+  </view>
+</view>
+<!--二、健康卡区域-->
+<view class="second_title">健康卡</view>
+<view class="row_view">
+  <view class="column_view">
+    <navigator class="small_view" url="/pages/medicine/medicine">
+      <view class="samll_nav">
+        <view class="title_image">
+          <view class="list_title">用药指导</view>
+          <image class="image3" src="/images/medicine.png"></image>
+        </view>
+        <view class="intro_view">用药须知、常用药</view>
+      </view>
+    </navigator>
+
+    <navigator class="small_view" url="/pages/sport/sport" style="background-color: #f2dbbb;">
+      <view class="samll_nav">
+        <view class="title_image">
+          <view class="list_title">运动建议</view>
+          <image class="image4" src="/images/sport3.png"></image>
+        </view>
+        <view class="intro_view">肺康复、太极拳</view>
+      </view>
+    </navigator>
+  </view>
+
+  <navigator class="big_view" url="/pages/breathing/breathing" style="background-color: #90ad81;">
+    <view class="samll_nav">
+      <view class="list_title">呼吸训练</view>
+      <image class="image1" src="/images/berath2.png" mode="heightFix"></image>
+      <view class="intro_view">困难评级、吹蜡烛训练</view>
+    </view>
+  </navigator>
+</view>
+
+
+<view class="row_view">
+  <navigator class="big_view" url="/pages/medical/medical" style="background-color: #bdd7b2;">
+    <view class="samll_nav">
+      <view class="list_title">医疗护理</view>
+      <image class="image2" src="/images/medical.png"></image>
+      <view class="intro_view">中医护理、家庭氧疗</view>
+    </view>
+  </navigator>
+
+  <view class="column_view">
+
+    <navigator class="small_view" url="/pages/life/life" style="background-color: #d6cbc4;">
+      <view class="samll_nav">
+        <view class="title_image">
+          <view class="list_title">生活饮食</view>
+          <image class="image5" src="/images/life.png"></image>
+        </view>
+        <view class="intro_view">生活环境、戒烟戒酒</view>
+      </view>
+    </navigator>
+
+    <navigator class="small_view" url="/pages/emotion/emotion" style="background-color: #e6c5b5;">
+      <view class="samll_nav">
+        <view class="title_image">
+          <view class="list_title">情志调节</view>
+          <image class="image6" src="/images/emo3.png"></image>
+        </view>
+        <view class="intro_view">情志相胜法、五音疗法</view>
+      </view>
+    </navigator>
+    
+  </view>
+</view>
+<!--三、自我管理表单提交按钮-->
+<view class="last_view">
+  <navigator class="nav_button" url="/pages/form_1/form_1">自我管理问卷</navigator>
+</view>

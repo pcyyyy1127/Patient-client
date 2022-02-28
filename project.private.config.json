@@ -1,0 +1,239 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/home/home",
+          "pathName": "pages/home/home",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/me/me",
+          "pathName": "pages/me/me",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/life/life",
+          "pathName": "pages/life/life",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/life_1/life_1",
+          "pathName": "pages/life_1/life_1",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/life_2/life_2",
+          "pathName": "pages/life_2/life_2",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/life_3/life_3",
+          "pathName": "pages/life_3/life_3",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/emotion/emotion",
+          "pathName": "pages/emotion/emotion",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/medical_3/medical_3",
+          "pathName": "pages/medical_3/medical_3",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/medical_5/medical_5",
+          "pathName": "pages/medical_5/medical_5",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/medical_2/medical_2",
+          "pathName": "pages/medical_2/medical_2",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/medicine/medicine",
+          "pathName": "pages/medicine/medicine",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/sport_1/sport_1",
+          "pathName": "pages/sport_1/sport_1",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/breathing/breathing",
+          "pathName": "pages/breathing/breathing",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/sport_2/sport_2",
+          "pathName": "pages/sport_2/sport_2",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/medical_4/medical_4",
+          "pathName": "pages/medical_4/medical_4",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/life_4/life_4",
+          "pathName": "pages/life_4/life_4",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/medical_3/medical_3",
+          "pathName": "pages/medical_3/medical_3",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/medical_1/medical_1",
+          "pathName": "pages/medical_1/medical_1",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/emotion/emotion",
+          "pathName": "pages/emotion/emotion",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/sport_1/sport_1",
+          "pathName": "pages/sport_1/sport_1",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/sport_3/sport_3",
+          "pathName": "pages/sport_3/sport_3",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/breathing/breathing",
+          "pathName": "pages/breathing/breathing",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/medical_2/medical_2",
+          "pathName": "pages/medical_2/medical_2",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/form/form",
+          "pathName": "pages/form/form",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/follow_advice/follow_advice",
+          "pathName": "pages/follow_advice/follow_advice",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/form/form",
+          "pathName": "pages/form/form",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/form_1/form_1",
+          "pathName": "pages/form_1/form_1",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/form_1/form_1",
+          "pathName": "pages/form_1/form_1",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/binding/binding",
+          "pathName": "pages/binding/binding",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/follow_advice/follow_advice",
+          "pathName": "pages/follow_advice/follow_advice",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "component/select/select",
+          "pathName": "component/select/select",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/binding/binding",
+          "pathName": "pages/binding/binding",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/follow_advice/follow_advice",
+          "pathName": "pages/follow_advice/follow_advice",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/follow_advice/follow_advice",
+          "pathName": "pages/follow_advice/follow_advice",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/follow_advice/follow_advice",
+          "pathName": "pages/follow_advice/follow_advice",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/me/me",
+          "pathName": "pages/me/me",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

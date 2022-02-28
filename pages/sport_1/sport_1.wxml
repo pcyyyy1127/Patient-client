@@ -1,0 +1,70 @@
+<!--pages/sport_1/sport_1.wxml-->
+<view class="back">
+  <view class="back_view">
+    <view class="title">中医特色功法：</view>
+    <view class="textstyle">中医八段锦、太极拳等传统运动，其操作练习具有“简、便、验、廉”等特色；故在慢病健康管理模式之下，可依照慢病患者自身各异的体质状况，定量、分期开展相应的传统运动及功法调理。
+      <view>注意：患者运动期间需有监护人陪同，且以不感到心慌、胸闷、气短为宜，每周运动4～5次，每次运动时间30～40min。</view>
+    </view>
+    <view class="title">太极拳：</view>
+    <view class="textstyle">
+      太极拳属于中等强度的锻炼功法，并且它的运动强度适用于不同年龄、不同性别的人群。对于肺纤维化人群而言，早期开始中等强度的太极拳功法可以明显改善呼吸功能、运动协调能力等。
+      杨氏太极拳、吴式太极拳、八段锦、五禽戏、</view>
+
+    <view class="title">杨氏太极拳：</view>
+    <view class="textstyle">现在广为流行的杨式太极拳，拳架舒展简洁，结构严谨，身法中正，动作和顺，刚柔内含，轻松自然，轻灵沉着兼而有之。姿势开展，平正朴实，练法简易，由松入柔，积柔
+      成刚，刚柔相济。适合老年人和慢性疾病者练习，能改善患者肺通气、换气功能，增加潮气量，进一步增强机体免疫功能。</view>
+
+    <view class="title">吴式太极拳：</view>
+    <view class="textstyle">吴式太极拳以柔化著称，动作轻松自然，连续不断，循规蹈矩，松静自然，独具静态之妙。拳架虽然小巧，但具有大架功底，又开展而紧凑，在紧凑中自具
+      舒展，不显拘束。推手时，端正严密，细腻熨贴，守静而不妄动，以善化见长。患者定期练习可以明显改善呼吸功能、运动协调能力等。</view>
+
+    <view class="title">八段锦：</view>
+    <view class="textstyle">
+      八段锦功法是一套独立而完整的健身功法，起源于北宋，共八百多年的历史。古人把这套动作比喻为“锦”，意为五颜六色，美而华贵！体现其动作舒展优美，视其为“祛病健身，效果极好；编排精致；动作完美，”现代的八段锦在内容与名称上均有所改变，此功法分为八段，每段一个动作，故名为“八段锦”，练习无需器械，不受场地局限，简单易学，节省时间，作用极其显著。
+    </view>
+
+    <view class="title">五禽戏：</view>
+    <view class="textstyle">
+      五禽戏依据中医学阴阳五行、脏象、经络、气血运行规律，观察禽兽活动姿态，用虎、鹿、猿、熊、鸟等动物形象、动作创编的一套养生健身功法。华佗五禽戏，五种动作各有特点、各有侧重，但又是一个整体，如能经常坚持综合练习，就能起到调养精神、调养气血、补益脏腑、通经活络等作用，对高血压、冠心病、神经衰弱等慢性疾病，均有较好的治疗和康复作用。
+    </view>
+
+    <view class="title">视频教程地址：</view>
+    <view class="textstyle2">杨氏太极拳:</view>
+    <view class="textstyle3">
+      <text selectable='true'>https://haokan.baidu.com/v?pd=wise
+        natural&vid=10606653294165171125</text>
+    </view>
+    <view class="textstyle2">吴氏太极拳:</view>
+    <view class="textstyle3">
+      <text selectable='true'> https://haokan.baidu.com/v?pd=wise
+        natural&vid=3797860436477412317</text>
+    </view>
+    <view class="textstyle2">八段锦:</view>
+    <view class="textstyle3">
+      <text selectable='true'>https://haokan.baidu.com/v?pd=wise
+        natural&vid=10133870937106869054</text>
+    </view>
+    <view class="textstyle2">五禽戏:</view>
+    <view class="textstyle3">
+      <text selectable='true'>https://haokan.baidu.com/v?pd=wise
+        natural&vid=5662096348385048843 </text>
+    </view>
+    <view class="textstyle2">（上方视频链接复制到浏览器打开观看）</view>
+  </view>
+
+  <view class="back_view">
+    <view class="title">参考文献：</view>
+    
+      <view class="textstyle2">[1].叶小丹,余宁琴,等.中医护理技术对肺纤维化患者的应用研究进展[J].深圳中西医结合杂志,2021,(05):191-193.</view>
+      <view class="textstyle2">[2].康萍.特发性肺纤维化肺康复的研究进展[J].湖南中医杂志,2020,(10):188-190. </view>
+      <view class="textstyle2">[3].陈敏,阴智敏.中医护理干预在水蛭宣痹化纤汤治疗肺间质纤维化中的效果[J].临床医学研究与实践,2020,(22):148-150.</view>
+      <view class="textstyle2">[4].杨燕.慢病管理对稳定期COPD价值及急性加重风险的临床研究[J].西南医科大学学报,2021,(02):124-127.</view>
+      <view class="textstyle2">[5]. 刘莉,史婵婵,等.呼吸管理团队对慢性阻塞性肺病患者呼吸功能恢复及生活质量的影响[J].护理实践与研究,2020,(16):70-72.</view>
+      <view class="textstyle2"> [6].曾令烽,杨伟毅,等.中医经典传承与疾患慢病管理创新模式[J].中华中医药杂志,2019,(07):3110-3114.</view>
+    
+
+
+
+
+  </view>
+</view>

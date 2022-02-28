@@ -1,0 +1,156 @@
+/* pages/me/me.wxss */
+page{
+  background-color: #fff;
+}
+
+/***1.首部样式****/
+.first_font{
+  width: 80%;
+  height: 20%;
+  margin: 25rpx;
+}
+/*自我管理字体样式*/
+.class_text1{
+  font-family: Microsoft YaHei;
+  font-weight: bolder;
+  font-size: 20pt;
+  text-shadow: 15rpx 15rpx 15rpx #999999;
+}
+.class_text2{
+  font-family: Microsoft YaHei;
+  font-size: 14pt;
+  font-size-adjust: none;
+  color: #ababab;
+  
+}
+
+
+/****2.图片和个人信息区域样式*****/
+.second{
+  width: 100%;
+  height: 40%;
+}
+/*总体样式*/
+.second_view{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 25rpx 25rpx 15rpx 25rpx;
+  font-size: 25rpx;
+}
+/*图片样式*/
+.sex_image{
+  width: 210rpx;
+  height: 630rpx;
+  padding: 20rpx;
+  margin: 0rpx 10rpx;
+}
+/*个人信息样式*/
+.personal_information{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+/*每一项属性的样式*/
+.attibute_view{
+  display: flex;
+  flex-direction: row;
+  padding: 10rpx;
+  height: 13%;
+}
+.image_center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;/*侧轴居中*/
+  align-items: center;/*水平居中*/
+  width: 30%;
+}
+.attribute_image{
+  width: 65rpx;
+  height: 65rpx;
+}
+.font_view{
+  display: flex;
+  flex-direction: column;
+  
+}
+/*属性字体样式*/
+.attribute{
+  font-family: Microsoft YaHei;
+  font-size: 12pt;
+  font-weight: 600;
+  margin: 5rpx  0rpx ;
+}
+.details{
+  font-family: Microsoft YaHei;
+  font-size: 12pt;
+  font-size-adjust: none;
+  color: #767676;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  
+  justify-content: center;
+}
+/*绑定按钮*/
+.binding{
+  font-family: Microsoft YaHei;
+  font-size: 10pt;
+  font-weight: 500;
+  margin: 5rpx  0rpx ;
+  background: #eba582;
+  /*background: #9ac934;*/
+  color:#fff;
+  border-radius: 10rpx;
+  width: 140rpx;
+  margin:  20rpx 0 5rpx 0;
+  height: 50rpx;
+  display: flex;
+  
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/****3.自我管理目标区域样式****/
+/*整体背景*/
+.third{
+  width: 100%;
+  height: 40vh;
+  position: absolute;
+  border-radius: 5%  5% 0rpx 0rpx ;
+  background-color: #fff;
+  -webkit-box-shadow:  0px 0px 5px 5px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow:  0px 3px 5px 5px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 3px 5px 5px rgba(49, 49, 49, 0.15);
+  overflow: hidden; 
+  z-index: -1;/*最底层显示*/
+}
+.third_view{
+  margin: 25rpx;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+/*修改按钮*/
+.change_button{
+  background-color:#b0c8b2;
+  color: #fff;
+}
+/*短期目标字体样式*/
+.class_text3{
+  font-family: Microsoft YaHei;
+  font-weight: 600;
+  font-size: 18pt;
+  margin: 30rpx;
+  text-align: center;
+}
+/*长期目标字体样式*/
+.class_text4{
+  font-family: Microsoft YaHei;
+  font-weight: lighter;
+  font-size: 14pt;
+  text-align: center;
+  margin: 30rpx;
+}

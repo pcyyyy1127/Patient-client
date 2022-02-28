@@ -1,0 +1,76 @@
+/**app.wxss**/
+page{
+  background-color: #e4e7e5;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+/*首部*/
+.first_view{
+  width: 100%;
+  height: 280rpx;
+}
+.second_title{
+  font-family: Microsoft YaHei;
+  font-size: 16pt;
+  margin: 25rpx 0 0rpx 25rpx;
+}
+/*健康卡文字样式*/
+.back{
+  display: flex;
+  margin: 20rpx;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;/*侧轴居中*/
+}
+.title{
+  font-size: 16pt;
+  margin: 30rpx;
+  font-weight: bolder;
+}
+.back_view{
+ background: #ffffff;
+ width: 100%;
+ border-radius: 10rpx;
+ margin: 25rpx 0 0 0;
+}
+.textstyle{
+  margin: 25rpx;
+  letter-spacing: 6rpx;
+  color: #666666;
+  text-align: justify;
+  text-indent: 80rpx;/*首行缩进*/
+  /*text-decoration: underline;
+  text-decoration-color: #00f;下划线*/
+  line-height: 50rpx;
+  white-space: normal;
+  font-size: 12pt;
+}
+.textstyle2{
+  margin: 25rpx;
+  letter-spacing: 2rpx;
+  color: #555555;
+  text-align: left;
+  text-indent: 40rpx;/*首行缩进*/
+  /*text-decoration: underline;
+  text-decoration-color: #00f;下划线*/
+  line-height: 50rpx;
+  white-space: normal;
+}
+.textstyle3{
+  margin: 25rpx;
+  letter-spacing: 2rpx;
+  text-align: left;
+  color: #504f4f;
+  text-decoration: underline;
+  text-decoration-color: #bdd7b2;
+  line-height: 40rpx;
+  white-space: normal;
+}

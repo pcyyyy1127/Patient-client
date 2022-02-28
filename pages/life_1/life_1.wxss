@@ -1,0 +1,4 @@
+/* pages/life_1/life_1.wxss */
+page{
+  background-color: #e4e7e5;
+}

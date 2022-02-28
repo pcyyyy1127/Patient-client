@@ -1,0 +1,37 @@
+<!--pages/form_1/form_1.wxml-->
+<!--首部字体区域-->
+<view class="first_view">
+  <view class="first_font">自我管理记录问卷</view>
+  <view class="second_font">请根据本周情况作答</view>
+</view>
+<!--问卷区域-->
+<view class="back">
+  <view class="background">
+    <view wx:for="{{questions}}" wx:key="index">
+      <view class="third_font">{{item.title}}</view>
+      <!--单选-->
+      <radio-group class="radio-group" bindchange="dataChange" data-index="{{index}}" data-ans="{{item.ans}}"
+        wx:if="{{item.content.length<5}}">
+        <label wx:for="{{item.content}}" wx:key="key" wx:for-item='ra'>
+          <radio class="radio" value="{{ra.value}}" checked="{{ra.checked}}">{{ra.value}}</radio>
+        </label>
+      </radio-group>
+      <!--多选-->
+      <checkbox-group class="radio-group" bindchange="dataChange" data-index="{{index}}" data-ans="{{item.ans}}"
+        wx:key="key" wx:if="{{item.content.length>4}}">
+        <label wx:for="{{item.content}}" wx:key="key" wx:for-item="ch">
+          <checkbox class="radio" value="{{ch.value}}" checked="{{ch.checked}}">{{ch.value}}</checkbox>
+        </label>
+      </checkbox-group>
+    </view>
+    <text class="third_font">25.你有什么想对医生说？</text>
+    <textarea class="textarea" name="Chat" value="{{otherChat}}" placeholder="(可不填）" bindinput="textInput"></textarea>
+
+
+  </view>
+
+</view>
+<!--提交问卷区域-->
+<view class="last_view"> 
+  <view class="submit" bindtap="formSubmit">提交问卷</view>
+</view>

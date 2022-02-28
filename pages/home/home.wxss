@@ -1,0 +1,190 @@
+/* pages/home/home.wxss */
+page{
+  background-color: #ffffff;
+}
+
+/****1.欢迎和头像区域****/
+
+.home_back{
+  width: 750rpx;
+  height:280rpx;
+  position: absolute;
+  z-index: -1;
+}
+.exit{
+  width: 100%;
+  height: 80rpx;
+  display: flex;
+  position: relative;
+}
+.exit_view{
+  width: 80rpx;
+  height: 80rpx;
+  position: absolute; /* 要约束所在位置的子元素的位置要设置成绝对 */
+  right: 0; /* 靠右调节 */
+  margin: 30rpx 25rpx 10rpx 20rpx;
+}
+.first_image{
+  width: 35rpx;
+  height: 35rpx;
+}
+/*欢迎和头像两部分*/
+.welcome_head{ 
+  display: flex;
+  flex-direction: row;
+}
+.welcome{
+  width: 80%;
+  margin: 0rpx 5rpx 10rpx 20rpx;
+  font-size: 14pt;
+  color: #767676;
+}
+/*头像样式*/
+.head{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;/*侧轴居中*/
+  align-items: center;/*水平居中*/
+  margin: 40rpx 40rpx 0rpx 0rpx;
+  font-size: 8pt;
+  width: 200rpx;
+}
+.head_image{
+  width:110rpx;
+  height: 110rpx;
+  border-radius: 50%;
+  border:3rpx solid #999999;
+  background-color: #d0d6d1;
+  box-shadow: 10rpx 10rpx 10rpx #999999;
+}
+
+
+/****2.健康卡区域****/
+
+.row_view{
+  display: flex;
+  flex-direction: row;
+  /*侧轴居中justify-content: center;*/
+  align-items: center;/*水平居中*/
+  font-size: 16pt;
+  width:100%;
+}
+.column_view{
+  display: flex;
+  flex-direction: column;
+  align-items: center;/*水平居中*/
+  font-size: 16pt;
+  width: 48%;
+  margin: 0 15rpx;
+}
+/*健康卡内容文字样式*/
+.samll_nav{
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 10rpx 10rpx 20rpx 20rpx;
+ justify-content: space-between;
+}
+.title_image{
+  display: flex;
+  flex-direction: row;
+  /*侧轴居中justify-content: center;*/
+
+  width:100%;
+}
+.list_title{
+  font-size: 14pt;
+  font-weight: 600;
+  margin: 10rpx 10rpx 50rpx 10rpx;
+}
+.intro_view{
+  font-size: 10pt;
+  margin: 10rpx 10rpx 0rpx 10rpx;
+}
+.small_view{
+  width: 100%;
+  height: 15vh;
+  margin: 25rpx 20rpx 0rpx 15rpx;
+  border-radius: 30rpx;
+  background-color: #f6c272;
+  /*background: -webkit-linear-gradient(left,#9fc97b,#b8dee7,#d6f1db);*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;/*水平居中*/
+  justify-content: center;
+  
+  box-shadow: 6rpx 5rpx 6rpx 6rpx rgba(85, 85, 85, 0.15);
+}
+/*呼吸训练图片*/
+.image1{
+  height: 150rpx;
+  width: 140rpx;
+  margin: 0rpx 0rpx 20rpx 70rpx;
+}
+/*医疗护理图片*/
+.image2{
+  height: 190rpx;
+  width: 180rpx;
+  margin: 0rpx 0rpx 20rpx 55rpx;
+}
+/*用药指导图片*/
+.image3{
+  height:80rpx;
+  width: 70rpx;
+  margin: 15rpx 10rpx 10rpx 28rpx;
+}
+/*运动建议图片*/
+.image4{
+  height:90rpx;
+  width: 90rpx;
+  margin: 10rpx 10rpx 20rpx 15rpx;
+}
+/*用药指导图片*/
+.image5{
+  height:135rpx;
+  width: 130rpx;
+  margin: 0rpx 0rpx 0rpx 0rpx;
+}
+/*情志调节图片*/
+.image6{
+  height:80rpx;
+  width: 80rpx;
+  margin: 15rpx 0rpx 0rpx 20rpx;
+}
+.big_view{
+  width: 50%;
+  height: 30vh;
+  margin: 25rpx 20rpx 0rpx 15rpx;
+  border-radius: 30rpx;
+  background-color: #9db692;
+  display: flex;
+  flex-direction: column;
+  align-items: center;/*水平居中*/
+  justify-content: center;
+  /*background: -webkit-linear-gradient(left,#5a6c4e,#8d9e84,#a1b4a4);*/
+  
+  box-shadow: 6rpx 5rpx 6rpx 6rpx rgba(85, 85, 85, 0.15);
+}
+.last_view{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items:center;/*水平居中*/
+}
+
+.nav_button{
+  width: 40%;
+  height:80rpx;
+  border-radius: 15rpx;
+  font-size: 14pt;
+  margin: 20rpx 0 20rpx 0;
+ 
+  background-color: #90ad81;
+  display: flex;
+  color: #fff;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;/*水平居中*/
+  box-shadow: 6rpx 10rpx 10rpx 10rpx rgba(85, 85, 85, 0.15);
+}

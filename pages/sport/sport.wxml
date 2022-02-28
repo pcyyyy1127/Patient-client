@@ -1,0 +1,7 @@
+<!--pages/sport/sport.wxml-->
+<view class="first_view">
+  <navigator class="second_view" url="/pages/sport_1/sport_1" >中国传统健身功法</navigator>
+  <navigator class="second_view" url="/pages/sport_2/sport_2" style="background-color: #f5cb8a;">肺康复训练</navigator>
+  <navigator class="second_view" url="/pages/sport_3/sport_3" style="background-color: #e6c5b5;">有氧运动</navigator>
+  <view style="color: #999999; pages/life/life">—— 点击模块查看详细内容 ——</view>
+</view>

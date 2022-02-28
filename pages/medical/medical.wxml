@@ -1,0 +1,11 @@
+<!--pages/medical/medical.wxml-->
+<!--pages/life/life.wxml-->
+<view class="first_view">
+  <navigator class="second_view" url="/pages/medical_1/medical_1" >中医护理</navigator>
+  <navigator class="second_view" url="/pages/medical_2/medical_2" style="background-color: #f5cb8a;">家庭氧疗</navigator>
+  <navigator class="second_view" url="/pages/medical_3/medical_3" style="background-color: #d6cbc4;">家庭护理</navigator>
+  <navigator class="second_view" url="/pages/medical_4/medical_4" style="background-color: #e6c5b5;">雾化吸入</navigator>
+  <navigator class="second_view" url="/pages/medical_5/medical_5" style="background-color: #bdd7b2;">自我管理</navigator>
+
+  <view style="color: #999999; font-size:10pt;">—— 点击模块查看详细内容 ——</view>
+</view>
